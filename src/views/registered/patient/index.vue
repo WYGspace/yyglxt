@@ -234,7 +234,7 @@ export default {
   created() {},
   // 数据初始化
   mounted() {//这里 有问题
-    axios.post('/patients/selectData').then(
+    axios.post('/api/patients/selectData').then(
       Response => {
         // 初始化下拉框--过敏药物
         this.drugAllergyOptions = Response.data;
