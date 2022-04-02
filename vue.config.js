@@ -39,7 +39,8 @@ module.exports = {
     before: require('./mock/mock-server.js'),
     proxy: {
       "/api":{
-        target:"http://localhost:8080/YYGLXT",
+        // target:"http://localhost:8080/YYGLXT", // 本地
+        target:"http://aguiya.com/YYGLXT", // 线上
         pathRewrite: {"^/api" : ""}
       }
     },
