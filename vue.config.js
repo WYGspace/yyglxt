@@ -40,7 +40,7 @@ module.exports = {
     proxy: {
       "/api":{
         // target:"http://localhost:8080/YYGLXT", // 本地
-        target:"http://aguiya.com/YYGLXT", // 线上
+        target:"http://42.194.130.75:80/YYGLXT/", // 线上
         pathRewrite: {"^/api" : ""}
       }
     },
