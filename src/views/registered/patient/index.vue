@@ -240,7 +240,7 @@ export default {
         this.drugAllergyOptions = Response.data;
       },
       error => {
-        console.log("请求失败");
+        console.log("请求失败",error);
       }
     )
   },
