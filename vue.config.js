@@ -41,7 +41,8 @@ module.exports = {
       "/api":{
         // target:"http://localhost:8080/YYGLXT", // 本地
         target:"http://aguiya.com/YYGLXT", // 线上
-        pathRewrite: {"^/api" : ""}
+        changeOrigin: true,// 如果接口跨域，需要进行这个参数配置
+        pathRewrite: {"^/api" : "/"}
       }
     },
   },
