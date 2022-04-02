@@ -31,7 +31,7 @@ module.exports = {
   productionSourceMap: false,
   devServer: {
     // port: port,// 告诉连接到 devServer 的客户端使用提供的端口进行连接
-    open: true,// 告诉 dev-server 在服务器已经启动后打开浏览器。设置其为 true 以打开你的默认浏览器。
+    // open: true,// 告诉 dev-server 在服务器已经启动后打开浏览器。设置其为 true 以打开你的默认浏览器。
     overlay: {// 只想显示错误信息
        warnings: false,
        errors: true

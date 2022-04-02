@@ -127,6 +127,7 @@ export default {
   props: [],
   data() {
     return {
+      cs1:"",
       // mainForm表单输入框禁用状态
       mainFormDisabled: true,
       // 新增按钮切换
@@ -417,7 +418,7 @@ export default {
       }
       this.mainFormDisabled = !this.mainFormDisabled;
       this.mainForm = this.mainFormTemporary;
-    }
+    },
   },
 };
 </script>
